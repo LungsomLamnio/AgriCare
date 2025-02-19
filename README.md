@@ -69,3 +69,9 @@ We welcome contributions! Fork this repo, create a branch, and submit a pull req
 [MIT License](https://choosealicense.com/licenses/mit/)
 
 🌍 Empowering Farmers with AI! 🚜🌾
+
+## 📞 Contact
+
+For inquiries or suggestions, please reach out at
+
+- **Email:** [lungsomlamnio@gmail.com](https://choosealicense.com/licenses/mit/)
