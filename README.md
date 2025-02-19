@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# 🌱 AgriCare - AI-Powered Farming Assistant
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AgriCare is a React Native Expo mobile application that helps smallholder farmers detect plant diseases and pests using AI-powered image recognition. The app works offline and online, utilizing TensorFlow.js for on-device processing, Gemini API for AI assistance (online), and Gemma API for offline AI assistance. It also integrates SQLite for local data storage.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- ✅ **Plant Disease Detection:** – Capture plant images and identify diseases using VGG16 model.
+- ✅ **Pest Detection:** – Detect harmful pests affecting crops.
+- ✅ **AI Assistance:** – Get farming recommendations using Gemini API (online) or Gemma API (offline).
+- ✅ **Offline Support:** – Store and retrieve data with SQLite.
+- ✅ **User-Friendly UI** – Built with React Native and Expo for seamless experience.
 
-   ```bash
-   npm install
-   ```
+## 📌 Tech Stack
 
-2. Start the app
+- **FrontEnd:** React Native (Expo CLI)
 
-   ```bash
-    npx expo start
-   ```
+- **AI MOdel:** TensorFlow.js (VGG16 for disease & pest detection)
+- **Database:** SQLite (for offline storage)
+- **AI Assistance:**
+  - **Gemini API** (for online AI-based insights)
+  - **Gemma API** (for offline AI-based insights)
 
-In the output, you'll find options to open the app in a
+## 🔧 Installation & Setup
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1️⃣ **Install Expo CLI (If Not Installed)**
 
 ```bash
-npm run reset-project
+  npm install -g expo-cli
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2️⃣ **Create the Project**
 
-## Learn more
+```bash
+  npx create-expo-app AgriCare
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3️⃣ **Move Into the Project Folder**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+  cd AgriCare
+```
 
-## Join the community
+4️⃣ **Install Dependencies**
 
-Join our community of developers creating universal apps.
+```bash
+  npm install @tensorflow/tfjs @tensorflow-models/mobilenet
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5️⃣ **Start the Development Server**
+
+```bash
+  npx expo start
+```
+
+Scan the QR Code with Expo Go App on your phone to test it! 📱
+
+## 🛠 Future Enhancements
+
+- 🌍 Multi-language Support for wider farmer adoption.
+- 🌱 Weather & Soil Analysis integration.
+- 📊 Dashboard for crop health insights.
+
+## 🤝 Contributing
+
+We welcome contributions! Fork this repo, create a branch, and submit a pull request.
+
+## 📜 License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
+
+🌍 Empowering Farmers with AI! 🚜🌾
