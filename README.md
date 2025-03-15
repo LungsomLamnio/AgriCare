@@ -1,58 +1,47 @@
-# 🌱 AgriCare - AI-Powered Farming Assistant
+# 🌱 AgriCare - AI-Powered Farming Assistant (Web)
 
-AgriCare is a React Native Expo mobile application that helps smallholder farmers detect plant diseases and pests using AI-powered image recognition. The app works offline and online, utilizing TensorFlow.js for on-device processing, Gemini API for AI assistance (online), and Gemma API for offline AI assistance. It also integrates SQLite for local data storage.
+AgriCare is a **React web application** that helps smallholder farmers detect plant diseases and pests using AI-powered image recognition. The app works **offline and online**, utilizing **TensorFlow.js** for on-device processing, **Gemini API** for AI assistance (online), and **Gemma API** for offline AI assistance. It also integrates **IndexedDB** for local data storage.
 
 ## 🚀 Features
 
-- ✅ **Plant Disease Detection:** – Capture plant images and identify diseases using transfer learning.
-- ✅ **Pest Detection:** – Detect harmful pests affecting crops.
-- ✅ **AI Assistance:** – Get farming recommendations using Gemini API (online) or Gemma API (offline).
-- ✅ **Offline Support:** – Store and retrieve data with SQLite.
-- ✅ **User-Friendly UI** – Built with React Native and Expo for seamless experience.
+- ✅ **Plant Disease Detection** – Upload plant images and identify diseases using AI.
+- ✅ **Pest Detection** – Detect harmful pests affecting crops.
+- ✅ **AI Assistance** – Get farming recommendations using **Gemini API (online)** or **Gemma API (offline)**.
+- ✅ **Offline Support** – Store and retrieve data with **IndexedDB**.
+- ✅ **User-Friendly UI** – Built with **React and TailwindCSS** for a seamless experience.
+
+---
 
 ## 📌 Tech Stack
 
-- **FrontEnd:** React Native (Expo CLI)
-
-- **AI Model:** TensorFlow.js (transfer learning for disease & pest detection)
-- **Database:** SQLite (for offline storage)
+- **FrontEnd:** React (Vite + JavaScript)
+- **AI Model:** TensorFlow.js (for disease & pest detection)
+- **Database:** IndexedDB (for offline storage)
 - **AI Assistance:**
   - **Gemini API** (for online AI-based insights)
   - **Gemma API** (for offline AI-based insights)
 
+---
+
 ## 🔧 Installation & Setup
 
-1️⃣ **Install Expo CLI (If Not Installed)**
+### 1️⃣ **Clone the Repository**
+
+````bash
+git clone https://github.com/LungsomLamnio/AgriCare.git
+cd AgriCare
+
+2️⃣ **Install Dependencies**
 
 ```bash
-  npm install -g expo-cli
-```
+  npm install
+````
 
-2️⃣ **Create the Project**
-
-```bash
-  npx create-expo-app AgriCare
-```
-
-3️⃣ **Move Into the Project Folder**
+3️⃣ **Start the Development Server**
 
 ```bash
-  cd AgriCare
+  npm run dev
 ```
-
-4️⃣ **Install Dependencies**
-
-```bash
-  npm install @tensorflow/tfjs @tensorflow-models/mobilenet
-```
-
-5️⃣ **Start the Development Server**
-
-```bash
-  npx expo start
-```
-
-Scan the QR Code with Expo Go App on your phone to test it! 📱
 
 ## 🛠 Future Enhancements
 
