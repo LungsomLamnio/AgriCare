@@ -36,7 +36,7 @@ cd AgriCare
 
 ```bash
   npm install
-````
+```
 
 3️⃣ **Start the Development Server**
 
@@ -65,3 +65,4 @@ We welcome contributions! Fork this repo, create a branch, and submit a pull req
 For inquiries or suggestions, please reach out at
 
 - **Email:** [lungsomlamnio@gmail.com](https://choosealicense.com/licenses/mit/)
+````
