@@ -27,7 +27,7 @@ AgriCare is a **React web application** that helps smallholder farmers detect pl
 
 ### 1️⃣ **Clone the Repository**
 
-````bash
+```bash
 git clone https://github.com/LungsomLamnio/AgriCare.git
 cd AgriCare
 ```
@@ -65,4 +65,7 @@ We welcome contributions! Fork this repo, create a branch, and submit a pull req
 For inquiries or suggestions, please reach out at
 
 - **Email:** [lungsomlamnio@gmail.com](https://choosealicense.com/licenses/mit/)
-````
+
+```
+
+```
