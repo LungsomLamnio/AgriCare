@@ -30,6 +30,7 @@ AgriCare is a **React web application** that helps smallholder farmers detect pl
 ````bash
 git clone https://github.com/LungsomLamnio/AgriCare.git
 cd AgriCare
+```
 
 2️⃣ **Install Dependencies**
 
